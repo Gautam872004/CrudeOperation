@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'TestFinancierDisplay';
+    src: url('../fonts/TestFinancierDisplay-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Prompt-Regular';
+    src: url('../fonts/Prompt-Regular.ttf');
+}
+
+body
+{
+    background-color: #80deea;
+}
+.hading
+{
+    font-family: 'TestFinancierDisplay';
+    border-bottom: 4px solid #006064;
+    width: 100px;
+    color: #006064;  
+    font-size: 50px; 
+}
+.product
+{
+    font-family: 'Prompt-Regular';
+    color: #006064;
+    font: 25px;
+    padding: 5px;
+}
+.btn
+{
+    background-color: #4dd0e1;
+    border: none;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+    color: #006064;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.btn:hover
+{
+    transition: linear;
+    font-family: 'Prompt-Regular';
+    border-bottom: 3px solid #006064;
+    width: 30%;
+    color: #fff;
+    border-radius: 2px;
+    font-size: 15px;
+}
+input
+{
+    
+    font-family: 'TestFinancierDisplay';
+    border: none;
+    border-radius: 2px;
+    border-top: 2px solid #006064;
+    border-bottom: 2px solid #006064;
+    font-size: 20px;
+    background-color: #4dd0e1;
+    color: #006064;
+}
+select
+{
+    font-family: 'Prompt-Regular';
+    background-color: #80deea;
+    border-radius: 5px;
+    color: #006064;
+    border: none
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button 
+{
+  -webkit-appearance: none;
+  margin: 0;
+}
+textarea:focus, input:focus
+{
+    outline: none;
+}
+.menu li
+{
+    display: inline;
+}
+.menu li a
+{
+    font-family: 'Prompt-Regular';
+    color: #006064;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+.tbl
+{
+    background-color: #0097a7;
+    color: #fff;
+    font-size: 20px;
+}
+.menu li:hover
+{
+    color: #fff;
+    opacity: 0.5;
+    transition: linear;
+} 
+.delete
+{
+    font-family: 'TestFinancierDisplay';
+    color: #80deea;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.delete:hover
+{
+    font-family: 'TestFinancierDisplay';
+    color: red;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.edit
+{
+    font-family: 'TestFinancierDisplay';
+    color: #80deea;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
+.edit:hover
+{
+    font-family: 'TestFinancierDisplay';
+    color: green;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px;
+}
